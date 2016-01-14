@@ -1,0 +1,1 @@
+puts "Marty is awesome"
