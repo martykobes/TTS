@@ -12,9 +12,9 @@ def kid_eat(food)
   end
 end
 
-foods = ["Candy", "Soda", "Lettuce", "McDonalds", "KFC", "Mango", "Carrot"]
+stuff = ["Candy", "Soda", "Lettuce", "McDonalds", "KFC", "Mango", "Carrot", "Orange"]
 
-foods.each do |food|
+stuff.each do |food|
     kid_eat(food)
 end
 
