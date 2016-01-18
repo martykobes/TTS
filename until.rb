@@ -1,10 +1,3 @@
-=begin
-loop do
-    puts 'Can we go to itchy and scratchy land?'
-    word = gets.chomp.downcase
-    break if word == 'yes'
-=end
-
 answer = 'no'
 until 
 answer == 'yes'
