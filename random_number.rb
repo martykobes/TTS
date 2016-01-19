@@ -1,11 +1,11 @@
-number = nil
+number = ''
 while number != 7
-number = rand(1..10)
+  number = rand(1..10)
 puts number
 end
 
 =begin
-number = nil
+number = ''
 until number == 7
 number = rand(1..10)
 puts number
