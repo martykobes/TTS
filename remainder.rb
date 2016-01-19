@@ -9,7 +9,7 @@ puts'What number do you want to divide'
  puts 'What number do you want to divide it by'
   b = gets.chomp.to_i
   if a == 0 || b == 0
-  puts 'Please do not enter a zero'
+    puts 'Please do not enter a zero or a letter'
 else
   puts "Your result is #{divide(a, b)} with a remainder of #{remainder(a, b)}"
 end
