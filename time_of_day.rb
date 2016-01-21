@@ -6,6 +6,5 @@ when 0..1200
 when 1300..1600
   puts 'Good afternoon'
 else
-puts 'Good evening'
+  puts 'Good evening'
 end
-
